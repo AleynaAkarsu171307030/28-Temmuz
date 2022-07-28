@@ -1,0 +1,64 @@
+
+/*  
+torun seçici div p (div altındaki tüm p lere bu css uyguluyodu)
+çocuk seçici div>p (div altındaki p lere uyguluyo ama torudan farkı da direk div içindeki p 'lere uygulıyor yani p etiketi herhangi bir farklı etiket içerisindeki uygulamaz.
+komşu seçici div+p =>kendinden sonr< gelen ilk etikete vermiş olduğumuz css uyguluyodu.
+kardeş seçici div~p => kendinden sonra gelen tüm p etiketlerine verilen css uyguluyo.
+
+
+*/
+
+/*h1,h2,p{
+    color:red
+}*/
+
+/*div p:hover{
+    background-color: yellowgreen;
+}*/
+
+
+/*div>p{
+    background-color: yellowgreen;
+}*/
+
+
+/*div+p{
+    background-color: yellowgreen;
+}*/
+
+/*div ~p{
+    background-color: yellowgreen;
+}
+
+*/
+/* 
+margin:auto dediğimizde sayfanın ortasına alabiliyoruz div'i fakat width özelliği verilmiş olması gerekir.
+*/
+div{
+    color:brown;
+    font-size: 20px;
+    
+    height:500px;
+    /*float: left;*/
+    margin:20px 30px;
+outline: 4px dotted black;
+   padding-top: 60px;
+   padding-left: 50px;
+   visibility: visible;
+
+}
+.bg-orange{
+    background-color: orange;
+    width:400px;
+}
+.bg-red{
+    background-color: red;
+    width:200px;
+}
+
+ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline;
+}
